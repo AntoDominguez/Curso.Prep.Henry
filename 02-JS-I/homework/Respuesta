@@ -1,0 +1,7 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables: Ponerle un valor a algo para después usarlo más tarde.
+	* Strings:Son cadenas de caracteres que se diferencian por estar entre comillas.
+	* Funciones (argumentos, `return`): El código function, ordena al interprete a realizar una función, este se lo nombre con la acción que se quiere realizar y así describe lo que se está haciendo. La funciones puede llevar argumentos, estas van entre parentesis y complemetan el desarrollo de la funcion. El return es cuando queremos que nos devuelva algo. 
+	* Declaraciones `if`: Es para dar condiciones, ejemplo: Si pasa esto...,esto es...
+	* Valores booleanos (`true`, `false`): Determinan una cosa o otra. 
