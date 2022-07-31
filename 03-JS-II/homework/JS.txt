@@ -1,0 +1,4 @@
+for: Es como el if pero mucho más compleja. Tenemos la palabra for, luego un paréntesis se ponen 3 cosas elementales; primero, declarar la variable para que se repita el bucle; segundo, una expresión condicional, que va a lograr que el ciclo continue hasta que sea falso; y tercero, se icrementa la variable con dos signos más.
+&&: Con este operador, el interprete lo toma como el "y" y sirve para cumplir dos o más condiciones
+||: Con este operador, el interprete lo toma como "o" y sirve para comparar dos expresiones. 
+!:Es un operaror, el interprete lo toma como "NO", es ustilizado por los booleanos para dar valor booleano opuesto. Si es Verdadero, será falso.
