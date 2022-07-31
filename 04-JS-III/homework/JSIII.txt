@@ -1,1 +1,1 @@
-Arrays: Que significa "arreglo", es una lista de elementos.
+Arrays: Que significa "arreglo", es una lista de elementos. 
