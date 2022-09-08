@@ -151,18 +151,23 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  for ( var i = 2; i / i && i / 1; i++) {
-    var i = numero;
- } return numero; 
+  if (numero === 0 || numero === 1) {
+    return false;
+  } for (var i = 2; i < numero; i++) {
+    if (numero % i === 0) {
+      return false;
+    }
+  }
+  return true;
 } 
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (valor === true) {
+  if (valor) {
     return "Soy verdadero";
-  } if (valor === false) {
+  } else {
     return "Soy falso"
   }
  }
@@ -171,32 +176,35 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  var tablaDelSeis = [i]
-  for (var i = 0; i < 60; i++ ) {
-    var tablaDelSeis = i * 6 
-  } return tablaDelSeis; 
+  var array = [];
+  for (var i = 0; i < 11; i++) {
+    array.push (6 * i)
+  }
+  return array;
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (numero.length === 3) {
+  var tieneTresDigitos = numero + "";
+  var dígitos = tieneTresDigitos.length;
+  if (dígitos === 3) {
     return true;
-  } return false;
-}
+  } else return false;
+} 
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var numero
-  var i = 0;
+  var valor = 1;
+  var resultado = numero;
+  
   do {
-    i = i + 5;
-    numero = numero + i;
-  } while (i * 8) {
-    var i = numero;
-  } return numero
+    resultado = resultado + 5;
+    valor = valor + 1
+  } while (valor < 9)
+  return resultado;
 }
 
 
